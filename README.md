@@ -18,9 +18,16 @@ Print both the values it would be interchanged
 ### Step 6: 
 End the program
 ## PROGRAM:
-
-
-
+```py
+m1=float(input())
+m2=float(input())
+temp=m1
+m1=m2
+m2=temp
+print("Swapped values are:",m1,m2)
+```
+## OUTPUT:
+![output](/swapping%20of%20two%20variables.png)
 ## RESULT:
 Thus the swapping of two values are successfully executed
 
